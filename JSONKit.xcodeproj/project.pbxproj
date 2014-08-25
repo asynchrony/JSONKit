@@ -22,7 +22,7 @@
 		B49409DA168E0AAD0089DB31 /* JSONKit-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "JSONKit-Info.plist"; sourceTree = "<group>"; };
 		B49409DC168E0AAD0089DB31 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		B49409DE168E0AAD0089DB31 /* JSONKit-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "JSONKit-Prefix.pch"; sourceTree = "<group>"; };
-		B80EB836157D399000117042 /* libJSONKit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libJSONKit.a; path = libJSONKitLib.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		B80EB836157D399000117042 /* libJSONKitLib.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libJSONKitLib.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		B80EB839157D399000117042 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		B80EB83D157D399000117042 /* JSONKit-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "JSONKit-Prefix.pch"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -78,7 +78,7 @@
 		B80EB837157D399000117042 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				B80EB836157D399000117042 /* libJSONKit.a */,
+				B80EB836157D399000117042 /* libJSONKitLib.a */,
 				B49409D6168E0AAD0089DB31 /* JSONKit.framework */,
 			);
 			name = Products;
@@ -166,7 +166,7 @@
 			);
 			name = JSONKitLib;
 			productName = JSONKit;
-			productReference = B80EB836157D399000117042 /* libJSONKit.a */;
+			productReference = B80EB836157D399000117042 /* libJSONKitLib.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 /* End PBXNativeTarget section */
